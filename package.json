@@ -1,0 +1,18 @@
+{
+  "name": "expressapp",
+  "version": "1.0.0",
+  "description": "stand alone API server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "ts-node -P ./server.tsconfig.json ./server.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^2.30.0",
+    "express": "^4.18.2",
+    "ts-node": "^10.9.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
